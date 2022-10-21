@@ -48,14 +48,14 @@ struct BundleSelection2: View {
                                 .padding(.bottom,13)
                                 .shadow(radius: 5)
                             
-                            if (result.check == true) {
+                            //if (result.check == true) {
                                 RoundedRectangle(cornerRadius: 17, style: .continuous)
                                     .stroke(Color("aqua"), lineWidth: 4)
                                     .frame(height: 83)
                                     .padding(.horizontal)
                                     .padding(.bottom,13)
                                     .shadow(radius: 5)
-                            }
+                            //}
                             
                             VStack (alignment: .leading){
                                 
